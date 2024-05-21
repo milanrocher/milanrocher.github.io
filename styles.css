@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2E3440;
+    color: #D8DEE9;
+}
+
+header {
+    background-color: #3B4252;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #4C566A;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #88C0D0;
+    color: #2E3440;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features, .projects, .faq, .contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    background-color: #4C566A;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project {
+    background-color: #4C566A;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.faq-item {
+    background-color: #4C566A;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact label {
+    margin-top: 10px;
+}
+
+.contact input, .contact textarea {
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #88C0D0;
+    color: #2E3440;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3B4252;
+}
